@@ -174,6 +174,5 @@ if __name__ == "__main__":
                 print(e)
                 speak("Sorry sir. I am not able to send this email")
                 speak("or press ctrl+c to exit ")   
-
       
 
