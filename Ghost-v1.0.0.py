@@ -172,10 +172,4 @@ if __name__ == "__main__":
             except Exception as e:
                 print(e)
                 speak("Sorry sir. I am not able to send this email")
-<<<<<<< HEAD
                 speak("or press ctrl+c to exit ") 
-=======
-                speak("or press ctrl+c to exit ")   
-      
-
->>>>>>> 3a1a26eeb3d3fcce793cd9c663f84f6b79946ce4
