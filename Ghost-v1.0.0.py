@@ -4,7 +4,6 @@ Guided by:    Code With Harry (CWD)
 Status:       Under Development
 Project Name: Ghost
 Discription:  Uses Google speech recongination Api for python.
-last modified date: 23-Dec-2020 12:14
 Subscribe:   https://www.youtube.com/channel/UCTwFfEX-EBWe_6FB-ruhWuw
 """
 
@@ -161,8 +160,8 @@ if __name__ == "__main__":
         
         elif 'send email' in query:
             try:
-                speak ("Email address please.")
-                to = takeCommand()
+                speak ("Enter recivers Email address please.")
+                to = input("Enter recivers Email address:")
                 speak("What should I say?")
                 content = takeCommand()
                 sendEmail(to, content)
