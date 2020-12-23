@@ -28,10 +28,9 @@ Subscribe:              https://www.youtube.com/channel/UCTwFfEX-EBWe_6FB-ruhWuw
 
 # How to set Up:
 1. clone the project using:
-git clone https://github.com/Nktech-Official/1.0.0-GhostChatBoat
-            or
-Download zip file on windows & extract it.
-
+            git clone https://github.com/Nktech-Official/1.0.0-GhostChatBoat
+            
+            
 2. pip install -r requirements.txt
                 or
     pip3 install -r requirements.txt in linux
@@ -39,17 +38,17 @@ Download zip file on windows & extract it.
 3. python Ghost-v1.0.0.py
 
 # Comman errors and solution:
-# Error 1:
-    after exicuting requirements.txt file if get any of the following error
-    No module named win32com.client
-    No module named win32
-    No module named win32api
+   # Error 1:
+          after exicuting requirements.txt file if get any of the following error
+           No module named win32com.client
+           No module named win32
+           No module named win32api
 # Solution 1:
-1. pip install pypiwin32
+            pip install pypiwin32
 
-# Error 2
+   # Error 2
     ModuleNotFoundError: No module named 'pywintypes'
-# Solution 2:
+   # Solution 2:
     1. go to C:\Users\nktec\AppData\Roaming\Python\Python39\site-packages\pywin32_system32 
     and copy the both file present in this directory named "pythoncom39.dll" and "pywintypes39.dll
     
