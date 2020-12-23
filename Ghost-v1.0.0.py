@@ -92,8 +92,12 @@ def sendEmail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
-    server.login('youremail@gmail.com', 'your-password')
-    server.sendmail('youremail@gmail.com', to, content)
+    speak("Enter Your email address.")
+    email = input("Enter Your email address:")
+    speak("enter your password")
+    password = input("Enter your password:")
+    server.login(email, 'your-password')
+    server.sendmail(email, to, content)
     server.close()
 
 
@@ -155,11 +159,12 @@ if __name__ == "__main__":
             speak("Next query please.")
             speak("or press ctrl+c to exit ")
         
-        elif 'email to harry' in query:
+        elif 'send email' in query:
             try:
+                speak ("Email address please.")
+                to = takeCommand()
                 speak("What should I say?")
                 content = takeCommand()
-                to = "harryyourEmail@gmail.com"    
                 sendEmail(to, content)
                 speak("Email has been sent!")
                 speak("Next query please.")
