@@ -155,20 +155,20 @@ if __name__ == "__main__":
             speak("Next query please.")
             speak("or press ctrl+c to exit ")
         
-        # elif 'email to harry' in query:
-        #     try:
-        #         speak("What should I say?")
-        #         content = takeCommand()
-        #         to = "harryyourEmail@gmail.com"    
-        #         sendEmail(to, content)
-        #         speak("Email has been sent!")
-        #         speak("Next query please.")
-        #         speak("or press ctrl+c to exit ")
+        elif 'email to harry' in query:
+            try:
+                speak("What should I say?")
+                content = takeCommand()
+                to = "harryyourEmail@gmail.com"    
+                sendEmail(to, content)
+                speak("Email has been sent!")
+                speak("Next query please.")
+                speak("or press ctrl+c to exit ")
             
-        #     except Exception as e:
-        #         print(e)
-        #         speak("Sorry sir. I am not able to send this email")
-        #         speak("or press ctrl+c to exit ")   
+            except Exception as e:
+                print(e)
+                speak("Sorry sir. I am not able to send this email")
+                speak("or press ctrl+c to exit ")   
 
       
 
