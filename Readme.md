@@ -55,7 +55,7 @@ Subscribe:              https://www.youtube.com/channel/UCTwFfEX-EBWe_6FB-ruhWuw
     2. paste them here 👇
     C:\Users\nktec\AppData\Roaming\Python\Python39\site-packages\win32\lib
 
-    # Note : replace the "nktech" with the your user name or locate to Appdata or where your pyhton is installed. go to roaming not local.
+    # Note : replace the "nktech" with the your user name or locate to Appdata or where your pyhton is installed. go to roaming .
     
     39 in the file name represent python version (39 means 3.9) you may have different version of python so replace the Python39 with your version The name is formed  by eleminating dot(.) from the version (e.g 3.7.0 will be 37 or 3.8.9 will be 38 etc.)
 # Contribution / Development :
