@@ -61,7 +61,7 @@ Subscribe:              https://www.youtube.com/channel/UCTwFfEX-EBWe_6FB-ruhWuw
 # Contribution / Development :
 
 
-Feel free to edit the code and publish your version on your own profole or add your version to this directory.
+Feel free to edit the code and publish your version on your own profile or add your version to this directory.
 you can add more query of your choice to perform different tasks
 
 # Note:
