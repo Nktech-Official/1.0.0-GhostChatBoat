@@ -10,7 +10,7 @@ Status:                 Under Development
 
 Project Name:           Ghost
 
-Program Type:           Chat Boat/Genral Purpose AI
+Program Type:           Chat Boat
 
 Subscribe:              https://www.youtube.com/channel/UCTwFfEX-EBWe_6FB-ruhWuw
 
