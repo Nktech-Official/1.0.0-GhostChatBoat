@@ -79,7 +79,7 @@ def takeCommand():
         query = r.recognize_google(audio, language='en-in')
         print(f"User said: {query}\n")
 
-    except Exception as e:
+    except Exception :
         speak("I did not get it....")   
         print("I did not get it....\nSay that again please") 
         speak("Say that again please")
@@ -95,7 +95,7 @@ def sendEmail(to, content):
     email = input("Enter Your email address:")
     speak("enter your password")
     password = input("Enter your password:")
-    server.login(email, 'your-password')
+    server.login(email, password)
     server.sendmail(email, to, content)
     server.close()
 
@@ -161,10 +161,10 @@ if __name__ == "__main__":
         elif 'send email' in query:
             try:
                 speak ("Enter recivers Email address please.")
-                to = input("Enter recivers Email address:")
+                ReciversEmail = input("Enter recivers Email address:")
                 speak("What should I say?")
-                content = takeCommand()
-                sendEmail(to, content)
+                Content = takeCommand()
+                sendEmail(ReciversEmail, Content)
                 speak("Email has been sent!")
                 speak("Next query please.")
                 speak("or press ctrl+c to exit ")
