@@ -34,8 +34,10 @@ Subscribe:              https://www.youtube.com/channel/UCTwFfEX-EBWe_6FB-ruhWuw
 2. pip install -r requirements.txt
                 or
     pip3 install -r requirements.txt in linux
+3. install pyaudio using `pipwin`
+        pipwin install pyaudio
 
-3. python Ghost-v1.0.0.py
+4. python Ghost-v1.0.0.py
 
 # Comman errors and solution:
    # Error 1:
