@@ -27,17 +27,19 @@ Subscribe:              https://www.youtube.com/channel/UCTwFfEX-EBWe_6FB-ruhWuw
 3. Audio input and output device. 
 
 # How to set Up:
-1. clone the project using:
-            git clone https://github.com/Nktech-Official/1.0.0-GhostChatBoat
+1. clone the project using: `git clone https://github.com/Nktech-Official/1.0.0-GhostChatBoat` for `hacktoberfest` contribution `fork` this repo and clone your repo `git clone https://github.com/YOUR-USER-NAME/1.0.0-GhostChatBoat`
             
-            
-2. pip install -r requirements.txt
-                or
-    pip3 install -r requirements.txt in linux
-3. install pyaudio using `pipwin`
-        pipwin install pyaudio.
+2. `pip -m venv .env`
 
-4. python Ghost-v1.0.0.py
+3. `.\.env\Scripts\activate` for `CMd` or `linux-terminal` and `.\.env\Scripts\Activate.ps1` for `powershell`
+            
+4. `pip install -r requirements.txt`
+                or
+    `pip3 install -r requirements.txt in linux`
+5. install pyaudio using `pipwin`
+        `pipwin install pyaudio`
+
+6. `python Ghost-v1.0.0.py`
 
 # Comman errors and solution:
    # Error 1:
