@@ -28,16 +28,16 @@ Subscribe:              https://www.youtube.com/channel/UCTwFfEX-EBWe_6FB-ruhWuw
 
 # How to set Up:
 1. clone the project using:
-            git clone https://github.com/Nktech-Official/1.0.0-GhostChatBoat
+            `git clone https://github.com/Nktech-Official/1.0.0-GhostChatBoat`
             
             
-2. pip install -r requirements.txt
+2. `pip install -r requirements.txt`
                 or
-    pip3 install -r requirements.txt in linux
+    `pip3 install -r requirements.txt in linux`
 3. install pyaudio using `pipwin`
-        pipwin install pyaudio
+        `pipwin install pyaudio`
 
-4. python Ghost-v1.0.0.py
+4. `python Ghost-v1.0.0.py`
 
 # Comman errors and solution:
    # Error 1:
