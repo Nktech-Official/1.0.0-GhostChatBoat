@@ -35,7 +35,7 @@ Subscribe:              https://www.youtube.com/channel/UCTwFfEX-EBWe_6FB-ruhWuw
                 or
     pip3 install -r requirements.txt in linux
 3. install pyaudio using `pipwin`
-        pipwin install pyaudio
+        pipwin install pyaudio.
 
 4. python Ghost-v1.0.0.py
 
